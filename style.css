@@ -1,0 +1,83 @@
+
+/* Page Background */
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Heading */
+h1 {
+    background-color: #075e5e;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Sub Headings */
+h2 {
+    color: #075e5e;
+}
+
+/* Paragraphs */
+p {
+    color: #333333;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Image */
+img {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #075e5e;
+}
+
+/* Button */
+button {
+    background-color: #075e5e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #008080;
+}
+
+/* Footer and sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
